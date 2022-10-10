@@ -1,5 +1,5 @@
 #header {
-    /* header style*/
+    /*main header style*/
     border-radius: 20px;
     background: rgb(133, 160, 161);
     padding: 20px;
@@ -8,90 +8,101 @@
   }
   
   #myName {
-    /*styles my name upper left of header*/
+    /* this styles my name left of the header*/
     color: rgb(14, 1, 1);
     font-size: 30px;
   }
   
   #links {
+    /* pushes nav links to right */
     float: right;
   }
   .borderLinks {
-    /* this styles navigation links */
+    /*styles nav links */
     border-style: double;
     color: rgb(47, 88, 107);
     font-weight: bold;
   }
   
   body {
-    /* styles background color*/
+    /* main body format*/
+    height: max;
+    width: max;
     background-color: rgb(47, 88, 107);
   }
   
-  section {
-    /*this sets up 2 sections*/
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(133, 160, 161);
-    margin-top: 20px;
-  }
-  
   img {
-    /* this styles my pic*/
-    margin-left: 180px;
-    width: 15%;
+    /*main pic formating layout*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
     padding-top: 10px;
-    padding-bottom: 10px;
   }
   
-  #h2-1 {
-    /*this styles the questions in my sec.*/
-    margin-top: 40px;
-    margin-left: 20px;
-  }
-  
-  .para {
-    /*this styles my text in side my sections*/
-    justify-content: center;
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: 100px;
-    margin-right: 180px;
-    width: 80%;
-  }
   #bottomBor {
-    /* this is the line that is in between elemnts*/
+    /* line divider*/
     margin: auto;
     width: 90%;
     border-bottom: 3px solid black;
     padding: 10px;
   }
-  footer {
-    /* helps style footer*/
-    display: flex;
-    justify-content: space-around;
-    font-weight: bold;
-    font-size: 25px;
-  }
-  #bottomLink {
-    /*this is the bottom*/
-    justify-content: space-around;
-  }
   
   #portfolio {
-    /*styles the page main title*/
+    /*styles main title on top of page*/
     width: max;
     height: 50px;
     display: flex;
     justify-content: center;
   }
-  /*.sectionItems {
-      flex-direction: column;
-    }
-  */
-  /*.footerImg {
-    width: 400px;
-    height: 56px;
-    padding-bottom: 15px;
-  }*/
+  
+  section {
+    /*sec. main format*/
+    display: flex;
+    justify-content: center;
+  }
+  .sectionItems {
+    /*items in side the sec.*/
+    flex-direction: column;
+    justify-content: space-around;
+    width: 750px;
+    height: 800px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: rgb(133, 160, 161);
+    font-size: 18px;
+    font-weight: bold;
+    overflow: scroll;
+  }
+  
+  footer {
+    /*footer format*/
+    display: flex;
+    justify-content: space-around;
+    width: max;
+    height: 150;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-style: 3px double black;
+    background-color: rgb(133, 160, 161);
+  }
+  
+  .footerDivs {
+    /*icon format in footer*/
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    margin: 8;
+  }
+  
+  .padding-for-footerDivs {
+    /* a little extra padding for rotten tomatoees icon */
+    padding-top: 20px;
+  }
+  
+  .border {
+    /*simple blck border*/
+    border: 3px solid black;
+  }
   
