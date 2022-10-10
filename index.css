@@ -1,0 +1,97 @@
+#header {
+    /* header style*/
+    border-radius: 20px;
+    background: rgb(133, 160, 161);
+    padding: 20px;
+    width: max;
+    height: 10px;
+  }
+  
+  #myName {
+    /*styles my name upper left of header*/
+    color: rgb(14, 1, 1);
+    font-size: 30px;
+  }
+  
+  #links {
+    float: right;
+  }
+  .borderLinks {
+    /* this styles navigation links */
+    border-style: double;
+    color: rgb(47, 88, 107);
+    font-weight: bold;
+  }
+  
+  body {
+    /* styles background color*/
+    background-color: rgb(47, 88, 107);
+  }
+  
+  section {
+    /*this sets up 2 sections*/
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(133, 160, 161);
+    margin-top: 20px;
+  }
+  
+  img {
+    /* this styles my pic*/
+    margin-left: 180px;
+    width: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  #h2-1 {
+    /*this styles the questions in my sec.*/
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  
+  .para {
+    /*this styles my text in side my sections*/
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 180px;
+    width: 80%;
+  }
+  #bottomBor {
+    /* this is the line that is in between elemnts*/
+    margin: auto;
+    width: 90%;
+    border-bottom: 3px solid black;
+    padding: 10px;
+  }
+  footer {
+    /* helps style footer*/
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  #bottomLink {
+    /*this is the bottom*/
+    justify-content: space-around;
+  }
+  
+  #portfolio {
+    /*styles the page main title*/
+    width: max;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  /*.sectionItems {
+      flex-direction: column;
+    }
+  */
+  /*.footerImg {
+    width: 400px;
+    height: 56px;
+    padding-bottom: 15px;
+  }*/
+  
